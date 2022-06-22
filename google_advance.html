@@ -31,8 +31,23 @@
             <h3>To do this in the search box</h3>
        </div> 
        <form action="https://www.google.com/search">
-        <label for=""></label>
-        <input id= "" type="text" name="q">
+        <div class="adSearchOne">
+                <label for="allWords">all these words:</label>
+                <input id= "allWords" type="text" name="as_q">
+        </div>
+        <div class="adSearchTwo">
+                <label for="exactWord">this exact word or phrase:</label>
+                <input id="exactWord" type="text" name="as_epq">
+        </div>
+        <div class="adSearchThree">
+                <label for="anyWord">any of these words:</label>
+                <input id= "anyWord" type="text" name="as_oq">
+        </div>
+        <div class="adSearchFour">
+                <label for="noneWords">none of these words:</label>
+                <input id= "noneWords" type="text" name="as_eq">
+        </div>
+        
         <input type="submit" value="Advanced Search">
     </form>
     </div>
