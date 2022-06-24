@@ -21,34 +21,38 @@
             <div class="searchLink"><a href="google_search.html"> Google Search </a></div>
         </div>
 
-        <h2>Advance Search</h2>
+        <div><h3 id="ASHead">Advance Search</h3></div>
         <hr>
     </div>
 
     <div id="searchPrams">
        <div id="searchInstructions">
-            <h2>Find pages with...</h2>
-            <h3>To do this in the search box</h3>
+            <h4>Find pages with...</h2>
+            <h5>To do this in the search box</h5>
        </div> 
        <form action="https://www.google.com/search">
         <div id="adSearchOne">
                 <label for="allWords">all these words:</label>
                 <input id= "allWords" type="text" name="as_q">
+                <label for="allWords">Type the important words:  tricolor rat terrier</label>
         </div>
         <div id="adSearchTwo">
                 <label for="exactWord">this exact word or phrase:</label>
                 <input id="exactWord" type="text" name="as_epq">
+                <label for="allWords">Put exact words in quotes:  "rat terrier"</label>
         </div>
         <div id="adSearchThree">
                 <label for="anyWord">any of these words:</label>
                 <input id= "anyWord" type="text" name="as_oq">
+                <label for="allWords">Type OR between all the words you want:  miniature OR standard</label>
         </div>
         <div id="adSearchFour">
                 <label for="noneWords">none of these words:</label>
                 <input id= "noneWords" type="text" name="as_eq">
+                <label for="allWords">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label>
         </div>
         
-        <input type="submit" value="Advanced Search">
+        <input id="ASbtn" type="submit" value="Advanced Search">
     </form>
     </div>
 
