@@ -26,33 +26,43 @@
     </div>
 
     <div id="searchPrams">
-       <div id="searchInstructions">
-            <h4>Find pages with...</h2>
-            <h5>To do this in the search box</h5>
-       </div> 
-       <form action="https://www.google.com/search">
-        <div id="adSearchOne">
-                <label for="allWords">all these words:</label>
-                <input id= "allWords" type="text" name="as_q">
-                <label for="allWords">Type the important words:  tricolor rat terrier</label>
-        </div>
-        <div id="adSearchTwo">
-                <label for="exactWord">this exact word or phrase:</label>
-                <input id="exactWord" type="text" name="as_epq">
-                <label for="allWords">Put exact words in quotes:  "rat terrier"</label>
-        </div>
-        <div id="adSearchThree">
-                <label for="anyWord">any of these words:</label>
-                <input id= "anyWord" type="text" name="as_oq">
-                <label for="allWords">Type OR between all the words you want:  miniature OR standard</label>
-        </div>
-        <div id="adSearchFour">
-                <label for="noneWords">none of these words:</label>
-                <input id= "noneWords" type="text" name="as_eq">
-                <label for="allWords">Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</label>
-        </div>
-        
-        <input id="ASbtn" type="submit" value="Advanced Search">
+        <form action="https://www.google.com/search">
+            <table id="multiSearch">
+                <tr>
+                  <th>Find pages with...</th>
+                  <th></th>
+                  <th>To do this in the</th>
+                </tr>
+                <tr>
+                  <td>all these words:</td>
+                  <td class="inputTbl"><input class='advInput' type="text" name="as_q"></td>
+                  <td>Type the important words:  tricolor rat terrier</td>
+                </tr>
+                <tr>
+                  <td>this exact word or phrase:</td>
+                  <td class="inputTbl"><input class='advInput' type="text" name="as_epq"></td>
+                  <td>Put exact words in quotes:  "rat terrier"</td>
+                </tr>
+                <tr>
+                  <td>any of these words:</td>
+                  <td class="inputTbl"><input class='advInput' type="text" name="as_oq"></td>
+                  <td>Type OR between all the words you want:  miniature OR standard</td>
+                </tr>
+                <tr>
+                  <td>none of these words:</td>
+                  <td class="inputTbl"><input class='advInput' type="text" name="as_eq"></td>
+                  <td>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</td>
+                </tr>
+                <tr>
+                        <td></td>
+                        <td id="advBtnRow"><input id="ASbtn" type="submit" value="Advanced Search"></td>
+                        <td></td>
+                      </tr>
+
+            </table>
+
+            </form>
+            
     </form>
     </div>
 
