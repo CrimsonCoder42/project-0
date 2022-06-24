@@ -21,7 +21,7 @@ a {
 
 .gsMain {
     position: fixed;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 10%;
@@ -34,19 +34,58 @@ a {
 }
 
 .searchBar {
-    margin-top: 10%;
     margin-right: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
 .searchtxt{
-    width: 150%;
+    width: 40em;
     height: 2.8rem;
-    border-color: #f5f5f5;
+    position: absolute;
+    top: 69%;
+    left: -7em;
     border-radius: 1.625rem;
+    border: 1px solid #dfe1e5;
+    margin: -35px 0 0 -35px;
     margin-bottom: 20px;
+    
 }
 
+.logo{
+    height: 92px;
+    width: 272px;
+}
 
+.container {
+    margin-top: 10px;
+}
+
+.searchButton{
+    display: inline-block;
+    width: 100px;
+    min-width: 54px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin-top: 30%;
+    margin-right: 5px;
+}
+
+#images{
+    position: absolute;
+    top:35%;
+    right: 4%;
+    color: blue
+}
+
+#googleLogo {
+    margin-bottom: 10%;
+}
+
+#luckyBtn {
+    font-size: 11px;
+}
